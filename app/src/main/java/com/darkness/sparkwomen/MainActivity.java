@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Set<String> oldNumbers = sharedPreferences.getStringSet("enumbers", new HashSet<>());
         if(!oldNumbers.isEmpty()){
             for(String ENUM : oldNumbers)
-                manager.sendTextMessage(ENUM,null,"please help[ me Im in Trouble!\nSending My Location :\n"+myLocation,null,null);
+                manager.sendTextMessage(ENUM,null,"Please Help Me!!! I'm in Trouble!!!!\nSending My Location :\n"+myLocation,null,null);
         }
     }
 }
